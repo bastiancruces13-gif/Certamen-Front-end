@@ -240,4 +240,62 @@ blockquote {
   height: 100%;
   object-fit: cover;        /* ajusta la foto sin deformarla */
 }
-.
+/* Sección Habilidades */
+.habilidades {
+  padding: 3rem 2rem;
+  background-color: #eef6ff;
+}
+
+.habilidades h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #0a2a43;
+  margin-bottom: 1rem;
+}
+
+.habilidades .intro {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-style: italic;
+  color: #555;
+}
+
+/* Tabla */
+.tabla-habilidades {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.tabla-habilidades th, .tabla-habilidades td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.tabla-habilidades th {
+  background-color: #0a2a43;
+  color: #fff;
+}
+
+progress {
+  width: 80%;
+  height: 1rem;
+  accent-color: #ff6600;
+}
+
+/* Competencias */
+.competencias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.competencias h3 {
+  color: #0a2a43;
+  margin-bottom: 0.5rem;
+}
+
+.competencias ul, .competencias ol {
+  padding-left: 1.5rem;
+}
