@@ -445,9 +445,6 @@
     color: var(--naranja);
   }
    
-  /* =============================================
-     CONTACTO
-     ============================================= */
   .contacto {
     padding: 4rem 3rem;
     background-color: var(--fondo-habilidades);
@@ -616,9 +613,6 @@
     color: #aac4e0;
   }
    
-  /* =============================================
-     RESPONSIVE — TABLET (768px)
-     ============================================= */
   @media (max-width: 768px) {
     .navbar {
       flex-wrap: wrap;
@@ -683,3 +677,30 @@
       font-size: 1.6rem;
     }
   }
+.car {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.btn-repo {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2b4c7e; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: 2px solid transparent;
+}
+
+.btn-repo:hover {
+    background-color: #1a3052;
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.btn-repo:focus {
+    outline: none;
+    border: 2px solid #ff9800;
+}
