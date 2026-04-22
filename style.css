@@ -299,4 +299,109 @@ progress {
 .competencias ul, .competencias ol {
   padding-left: 1.5rem;
 }
+#contacto {
+    padding: 40px;
+    text-align: center;
+}
+.form-contacto {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form-contacto input,
+.form-contacto select,
+.form-contacto textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+.form-contacto button {
+    background: rgb(15, 89, 185);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.form-contacto input:focus,
+.form-contacto textarea:focus,
+.form-contacto select:focus {
+    border-color: blue;
+    outline: none;
+}
+.form-contacto button:hover {
+    background: #333;
+}
+@media (max-width: 480px) {
+    .form-contacto {
+        width: 90%;
+    }
+}
+#contacto {
+    padding: 40px;
+    text-align: center;
+}
+
+/* CONTENEDOR DOS COLUMNAS */
+.contenedor-contacto {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* FORMULARIO */
+.form-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* FILA DOBLE */
+.fila {
+    display: flex;
+    gap: 15px;
+}
+
+.fila div {
+    flex: 1;
+}
+
+/* INPUTS */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* BOTÓN */
+button {
+    background: #1f3b64;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #162c4a;
+}
+
+/*CAJA DERECHA (PLOMO) */
+.info-contacto {
+    background: #e0e0e0; /* ← ESTE ES EL PLOMO */
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+/* TEXTO */
+.info-contacto p {
+    margin: 10px 0;
+}
 .
