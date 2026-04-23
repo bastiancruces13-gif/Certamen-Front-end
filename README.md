@@ -1,6 +1,6 @@
 # Portafolio Profesional - Bastián Cruces
 
-Este es mi proyecto final para el módulo de **Desarrollo Web Front-End**. Consiste en un portafolio de una sola página que presenta mi perfil como estudiante de Ingeniería en Informática, mis habilidades técnicas y mis proyectos realizados.
+Este es mi proyecto final para La asignatura de **Programacion Front-End**. Consiste en un portafolio de una sola página que presenta mi perfil como estudiante de Ingeniería en Informática, mis habilidades técnicas y mis proyectos realizados.
 ## 1 Sobre mí
 Soy estudiante de **Ingeniería en Informática** en INACAP (Sede Concepción-Talcahuano). Mi enfoque está en la creación de aplicaciones funcionales y visualmente atractivas. Actualmente estoy perfeccionando mis habilidades en el ecosistema Web y el control de versiones con Git.
 
